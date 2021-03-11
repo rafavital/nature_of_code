@@ -8,10 +8,10 @@ function setup() {
 function draw() {  
 
   
-  let yoff = 0
+  let yoff = start
   loadPixels()
   for (let y = 0; y < height; y++) {
-    let xoff = 0
+    let xoff = start
     for (let x = 0; x < width; x++) {
       let id = (x + y * width) * 4
       let r = noise (xoff, yoff) * 255
@@ -24,6 +24,7 @@ function draw() {
     }
     yoff += inc
   }
-  
+
+  start += inc
   updatePixels()
 }
