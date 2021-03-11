@@ -12,7 +12,7 @@ function draw() {
   beginShape()
   for (let x = 0; x < width; x++) {
     stroke (255)
-    vertex(x, noise(xoff) * height)
+    vertex(x, height / 2 + sin(xoff) * height / 2)
     xoff += i
   }
   endShape()
