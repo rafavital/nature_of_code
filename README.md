@@ -50,6 +50,8 @@ Some things I want to do in the future regarding Perlin Noise:
 
 Ok so the random walker was an extremly simple concept, I thought there would be more to it, but it was actually a good thing as today I don't have a lot of time to work on this, I'll come back to this topic in another time as I want to experiment more with the possibilities, I'll note to myself some ideas of what to do with the random walker algorithm.
 
+<img src="log/images/random_walker_simple.gif" width="300>
+
 ### Future Possibilities
 
 - [ ] Spawn n random walkers each with different colors and mix the colors on the point where they intersect.
