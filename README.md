@@ -10,7 +10,7 @@ I created this project as a way to document my studies following Daniel Shiffman
 Even though I'm no stranger to programming and am already very comfortable with most of programmings basic and intermediate concepts, even some advanced ones, I decided to start my journey through the book at the beggining, as in my experience there is always something to learn when you go back to basics.
 
 ### My Approach
-I decided to couple the book with Daniel Shiffman's videos at [The Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw/featured) as I usually learn best from videos, but still want to see the contents of the books. 
+I decided to couple the book with Daniel Shiffman's videos at [The Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw/featured) as I usually learn best from videos, but still want to see the contents of the books. Though I do realise I am unfamiliar with processing's frameworks so I'll have to look into that.
 
 I also decided to work with p5.js as is apparent in this projects repository, but the [video series starts](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZV4yEcW3uDwOgGXKUUsPOM) in a strange way, as the Introduction chapter of the book is covered in older videos in a different order, thus I decided to follow the videos up to the end of the Introduction videos and before starting the next chapter I'll read the book's Introduction chapter, to see if there's anything more to what I already did while following the videos.
 
