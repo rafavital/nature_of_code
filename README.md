@@ -3,17 +3,17 @@
 I created this project as a way to document my studies following Daniel Shiffman's [Nature of Code](https://natureofcode.com/). I aim to use it not only as a VCS for my code, but also as a notebook of sorts, where I can document my progress and my challenges.
 
 # Completed Chapters
--[x] Introduction
--[] 1. Vectors
--[] 2. Forces
--[] 3. Oscillation
--[] 4. Particle Systems
--[] 5. Physics Libraries
--[] 6. Autonomous Agents
--[] 7. Cellular Automata
--[] 8. Fractals
--[] 9. The Evolution of Code
--[] 10. Neural Networks
+- [x] Introduction
+- [] 1. Vectors
+- [] 2. Forces
+- [] 3. Oscillation
+- [] 4. Particle Systems
+- [] 5. Physics Libraries
+- [] 6. Autonomous Agents
+- [] 7. Cellular Automata
+- [] 8. Fractals
+- [] 9. The Evolution of Code
+- [] 10. Neural Networks
 
 # Log
 
@@ -42,8 +42,8 @@ I've known and used Perlin Noise in a lot of different projects, but it's nice t
 ### Future Possibilities
 Some things I want to do in the future regarding Perlin Noise:
 
--[] Implement Perlin Noise from scratch
--[] Work with simplex noise and maybe implement that as well
+- [] Implement Perlin Noise from scratch
+- [] Work with simplex noise and maybe implement that as well
 
 
 ## Day 2 (13-03-21) - Random Walkers
@@ -52,6 +52,6 @@ Ok so the random walker was an extremly simple concept, I thought there would be
 
 ### Future Possibilities
 
--[] Spawn n random walkers each with different colors and mix the colors on the point where they intersect.
--[] Make the random walker loosely follow the mouse position.
--[] Create tree-like structures with the random walker.
+- [] Spawn n random walkers each with different colors and mix the colors on the point where they intersect.
+- [] Make the random walker loosely follow the mouse position.
+- [] Create tree-like structures with the random walker.
