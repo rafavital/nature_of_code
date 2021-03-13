@@ -22,6 +22,8 @@ I had a problem with the p5.js libraries where if I stored them in a folder on t
 ### Perlin Noise
 I've known and used Perlin Noise in a lot of different projects, but it's nice to see it in different dimensions and use cases, overall it's been a fun exercise messing with the noise's variables and mapping it in a graph and a 2D grid.
 
+![A 2D graph of Perlin Noise over time](log/images/perlin_noise_2d_graph.png)
+
 ![A Smooth Perlin Noise Texture](log/images/perlin_smooth_texture.png)
 
 ### Future Possibilities
