@@ -5,9 +5,7 @@ function setup() {
   pixelDensity(1)
 }
 
-function draw() {  
-
-  
+function draw() {    
   let yoff = start
   loadPixels()
   for (let y = 0; y < height; y++) {
