@@ -1,64 +1,36 @@
-let walker1
-let x,y
-let r,g,b
 
+var x, y, step
 function setup() {
-  createCanvas(400,400);
-  pixelDensity(1)
-  
-  x = random(400)
-  y = random(400)
-  r = random(255)
-  g = random(255)
-  b = random(255)
-  
-  background(51)  
+  createCanvas(400, 400);
+  x = width / 2;
+  y = height / 2;
+  background(50)
+  step = 1
 }
 
-function draw() {  
-  loadPixels()
-  
-  for (let x = 0; x < width; x++) {
-    for (let y = 0; y < height; y++) {
-      if (x == this.x && y == this.y)
-      {
-      let pixel_id = (x + y * width) * 4
+function draw() {
+  stroke(255)
+  strokeWeight(2)
+  point(x, y)
 
-      pixels[pixel_id]     = r
-      pixels[pixel_id + 1] = g
-      pixels[pixel_id + 2] = b
-      pixels[pixel_id + 3] = 255
-        }
-    }
-    
-  }
+  let r = floor(random(4))
+  step = randomGaussian(4, 2)
 
-  let pixel_id = (x + y * width) * 4
-
-  pixels[pixel_id]     = r
-  pixels[pixel_id + 1] = g
-  pixels[pixel_id + 2] = b
-  pixels[pixel_id + 3] = 255
-
-  updatePixels()
-
-  let rand = floor (random(4))
-
-  switch (rand) {
-      case 0:
-      x ++;
+  switch (r) {
+    case 0:
+      x += step;
       break;
 
-      case 1:
-      x--;
+    case 1:
+      x -= step;
       break;
 
-      case 2:
-      y++      
+    case 2:
+      y += step
       break;
-      
-      case 3:
-      y--;
+
+    case 3:
+      y -= step;
       break;
   }
 }
