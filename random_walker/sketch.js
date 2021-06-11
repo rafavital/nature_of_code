@@ -6,7 +6,7 @@ function setup() {
   background(50)
 
   step = 1
-  walker = new Walker(200, 200)
+  walker = new Walker(createVector(200, 200))
 }
 
 function draw() {

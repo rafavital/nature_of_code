@@ -1,12 +1,11 @@
 class Walker {
-    constructor(x, y, vel = createVector(1, 1)) {
-        this.pos = createVector(x, y)
+    constructor(pos = createVector(0, 0), vel = createVector(1, 1)) {
+        this.pos = pos
         this.velocity = vel
     }
 
     update() {
-        this.pos.x += this.velocity.x
-        this.pos.y += this.velocity.y
+        this.pos.add(this.velocity)
     }
 
     draw() {
