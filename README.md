@@ -78,3 +78,7 @@ I can't say I've wraped my mind about it, after rereading this part a few times 
 ### On finishing the intro
 
 I took way too long on this intro, probably because I wanted to skip it from the beginning as it covers a lot of (you guessed it) introductory concepts and I want to jump ahead to the good stuff. I'll definitely be coming back to it though.
+
+### Chapter 1
+
+I've finished the videos on the first chapter and not surprisingly they were pretty basic, although there were some cool visualizations.
