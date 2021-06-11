@@ -57,6 +57,12 @@ Ok so the random walker was an extremly simple concept, I thought there would be
 
 ![A gif of a Random Walker lgorithm in action](/log/images/random_walker_simple.gif)
 
+### Future Possibilities
+
+- [ ] Spawn n random walkers each with different colors and mix the colors on the point where they intersect.
+- [ ] Make the random walker loosely follow the mouse position.
+- [ ] Create tree-like structures with the random walker.
+
 ## Day 3 (11-06-21) - Finishing the Intro
 
 It's been too long, though I've been busy I have neglected this project and wanted to come back to it. In order to acquaint myself back to it I've finished the introduction chapter. I've been trying to adapt to having little contiguous time to work on this, but it's definitely been a challenge. Now, three months later I have a good feeling about this [Log](#Log)
@@ -72,9 +78,3 @@ I can't say I've wraped my mind about it, after rereading this part a few times 
 ### On finishing the intro
 
 I took way too long on this intro, probably because I wanted to skip it from the beginning as it covers a lot of (you guessed it) introductory concepts and I want to jump ahead to the good stuff. I'll definitely be coming back to it though.
-
-### Future Possibilities
-
-- [ ] Spawn n random walkers each with different colors and mix the colors on the point where they intersect.
-- [ ] Make the random walker loosely follow the mouse position.
-- [ ] Create tree-like structures with the random walker.
