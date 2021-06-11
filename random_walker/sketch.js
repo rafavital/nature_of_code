@@ -10,28 +10,14 @@ function setup() {
 }
 
 function draw() {
-  let r = floor(random(4))
-  //step = randomGaussian(4, 2)
-  step = monteCarlo() * 5
 
-  switch (r) {
-    case 0:
-      walker.velocity.x = step;
-      break;
+  step = p5.Vector.random2D().mult(2)
 
-    case 1:
-      walker.velocity.x = -step;
-      break;
-
-    case 2:
-      walker.velocity.y = step
-      break;
-
-    case 3:
-      walker.velocity.y = -step;
-      break;
+  let r = random(1)
+  if (r < 0.01) {
+    step = random(25, 100)
   }
-
+  walker.velocity = step
   walker.update()
   walker.draw()
 }
